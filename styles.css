@@ -1,0 +1,242 @@
+text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 150px;
+  height: auto;
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+header:hover {
+  background-color: #45a049;
+}
+header:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+header:focus {
+  outline: none;
+}
+header:focus-visible {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+header:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+header:disabled:hover {
+  background-color: #ccc;
+}
+header:disabled:active {
+  background-color: #ccc;
+  transform: none;
+}
+header:disabled:focus-visible {
+  outline: none;
+}
+header:focus:not(:focus-visible) {
+  outline: none;
+}
+header:focus-visible:not(:focus) {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+header:focus-visible:active {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+  transform: translateY(4px);
+}
+header:focus-visible:disabled {
+  outline: none;
+}
+header:focus-visible:hover {
+  background-color: #45a049;
+}
+header:focus-visible:disabled:hover {
+  background-color: #ccc;
+}
+header:focus-visible:disabled:active {
+  background-color: #ccc;
+  transform: none;
+}
+header:focus-visible:disabled:focus {
+  outline: none;
+}
+h1 {
+  font-size: 24px;
+  color: #af534c;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+h4 {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+h5 {
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+}
+h6 {
+  font-size: 12px;
+  color: #eee;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+p:hover {
+  color: #4CAF50;
+}
+p:active {
+  color: #3e8e41;
+  transform: translateY(4px);
+}
+p:focus {
+  outline: none;
+}
+p:focus-visible {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+p:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+p:disabled:hover {
+  color: #ccc;
+}
+p:disabled:active {
+  color: #ccc;
+  transform: none;
+}
+p:disabled:focus-visible {
+  outline: none;
+}
+p:focus:not(:focus-visible) {
+  outline: none;
+}
+p:focus-visible:not(:focus) {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:fit-content;
+}
+main:hover {
+  background-color: #f0f0f0;
+}
+main:active {
+  background-color: #e0e0e0;
+  transform: translateY(4px);
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+button:focus {
+  outline: none;
+}
+button:focus-visible {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+button:disabled:hover {
+  background-color: #ccc;
+}
+button:disabled:active {
+  background-color: #ccc;
+  transform: none;
+}
+button:disabled:focus-visible {
+  outline: none;
+}
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+button:focus-visible:not(:focus) {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+}
+button:focus-visible:active {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
+  transform: translateY(4px);
+}
+button:focus-visible:disabled {
+  outline: none;
+}
+button:focus-visible:hover {
+  background-color: #45a049;
+}
+button:focus-visible:disabled:hover {
+  background-color: #ccc;
+}
+button:focus-visible:disabled:active {
+  background-color: #ccc;
+  transform: none;
+}
+button:focus-visible:disabled:focus {
+  outline: none;
+}
+button:focus-visible:disabled:focus-visible {
+  outline: none;
+}
+#magicBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.hidden {
+  display: none;
+}
